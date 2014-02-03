@@ -1,0 +1,48 @@
+/*
+home.scss
+*/
+.wrap {
+  display: block;
+  float: none;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+#conferences ul {
+  list-style: none;
+  padding: 0;
+}
+#conferences li {
+  margin: 1.625em 0;
+}
+
+.presentation-title {
+  font-style: italic;
+}
+
+.presentation-download {
+  display: block;
+  padding-right: 1.5em;
+  margin: .5em 0;
+}
+
+.presentation-download img {
+  height: 16px;
+  padding-right: .25em;
+  vertical-align: middle;
+}
+
+.documents {
+  list-style: none;
+  padding: 0;
+}
+.documents a {
+  display: block;
+  padding-right: 1.5em;
+  margin: .5em 0;
+}
+.documents a img {
+  height: 16px;
+  padding-right: .25em;
+  vertical-align: middle;
+}

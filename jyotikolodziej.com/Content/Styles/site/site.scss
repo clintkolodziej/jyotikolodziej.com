@@ -1,0 +1,27 @@
+﻿/*
+site/site.scss
+*/
+
+@import "../global.scss";
+@import "../library/grid.scss";
+@import "../library/helper.scss";
+
+//
+// Main Sections
+//
+
+article > section {
+	h2 {
+		//text-align: center;
+		@include font-size(($h2-font-size * .75));
+	}
+}
+
+/* 6 column layout */
+@media screen and (min-width: 60rem) {
+	article > section {
+		h2 {
+			@include font-size($h2-font-size);
+		}
+	}
+}

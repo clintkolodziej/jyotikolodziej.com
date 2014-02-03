@@ -1,0 +1,68 @@
+﻿/*
+home.scss
+*/
+
+@import "../library/grid.scss";
+@import "../library/helper.scss";
+
+.wrap {
+	@include max-column;
+}
+
+//
+// Conferences
+//
+
+#conferences {
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		margin: $line-height * 1em 0;
+	}
+}
+
+.presentation-authors {
+}
+
+.presentation-title {
+	font-style: italic;
+}
+							
+.presentation-download {
+	display: block;
+	padding-right: 1.5em;
+	margin: .5em 0;
+}
+
+.presentation-info {
+}
+							
+.presentation-download img {
+	height: 16px;
+	padding-right: .25em;
+	vertical-align: middle;
+}
+
+//
+// Documents
+//
+.documents {
+	list-style: none;
+	padding: 0;
+
+	a {
+		display: block;
+		padding-right: 1.5em;
+		margin: .5em 0;
+	}
+							
+	a img {
+		height: 16px;
+		padding-right: .25em;
+		vertical-align: middle;
+	}
+}

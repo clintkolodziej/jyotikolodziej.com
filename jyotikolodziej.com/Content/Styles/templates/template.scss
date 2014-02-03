@@ -1,0 +1,190 @@
+/*
+Template Layout
+*/
+
+@import "../global.scss";
+@import "../library/helper.scss";
+
+//
+// Resets
+//
+
+body,
+#content {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	clear: both;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+//
+// Body
+//
+
+body {
+	background-color: #f8f8f8;
+	background-image: url(/Content/Images/blackboard.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center top;
+	@include background-size(cover);
+	@include background-origin(padding-box);
+	@include background-clip(border-box);
+}
+
+//
+// wrapper
+//
+
+#wrapper {
+	min-width: 20em;
+	max-width: 30em;
+	margin: 0 auto;
+	background-color: #fff;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	box-shadow: 0 0 6.25em rgba(0,0,0,0.04);
+}
+
+@media screen and (min-width: 30rem) {
+
+	#wrapper {
+		min-width: 30em;
+		max-width: 40em;
+	}
+}
+
+@media screen and (min-width: 40rem) {
+
+	#wrapper {
+		min-width: 40em;
+		max-width: 50em;
+	}
+}
+
+@media screen and (min-width: 60rem) {
+
+	#wrapper {
+		min-width: 60em;
+		max-width: 70em;
+	}
+}
+
+@media screen and (min-width: 80rem) {
+
+	#wrapper {
+		min-width: 80em;
+		max-width: 90em;
+	}
+}
+
+//
+// Header
+//
+
+#header {
+	padding: $line-height * 1em 0;
+	text-align: center;
+	@include clear-children();
+
+	img {
+		display: block;
+		margin: 1em auto;
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 1.875em;
+		font-weight: 500;
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+		font-weight: 500;
+		opacity: .4;
+	}
+}
+
+@media screen and (min-width: 40rem) {
+
+	#header {
+		img {
+			width: 180px;
+			height: 180px;
+			border-radius: 90px;
+		}
+		h1 {
+			font-size: 2.75em;
+		}
+		h2 {
+			font-size: 1.25em;
+		}
+	}
+}
+
+@media screen and (min-width: 60rem) {
+
+	#header {
+		img {
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+		}
+		h1 {
+			font-size: 3.4375em;
+		}
+		h2 {
+			font-size: 1.5em;
+		}
+	}
+}
+
+//
+// Content
+//
+
+#content {
+	@include clear-children();
+}
+
+//
+// Footer
+//
+
+#footer {
+	padding: $line-height * 1em 0;
+	text-align: center;
+	@include clear-children();
+
+	address {
+		margin: $line-height * 1em 0;
+		font-style: normal;
+		opacity: .5;
+	}
+
+	.social {
+		display: inline-block;
+		height: 2em;
+		width: 2em;
+		text-indent: -9999px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: .5;
+	}
+
+	.social + .social {
+		margin-left: .25em;
+	}
+
+	.linkedin {
+		background-image: url("/Content/Images/linkedin-circle.png");
+	}
+
+}
