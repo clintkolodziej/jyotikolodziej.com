@@ -218,14 +218,6 @@
     <Content Include="Documents\2012-ISIS\Sperry,-Glass,-Kolodziej,-Hamil,-&amp;-Sperry-ICIS-2012-Poster.pdf" />
     <Content Include="Documents\2012-SITE\For-Submission-Synergetic-Collaborative-Learning.pdf" />
     <Content Include="Documents\Case_Study_of_Parents_Socializing_Talk_to_Siblings-Kolodziej-Sperry final.pptx" />
-    <Content Include="Documents\CV\Kolodziej Jyoti Curriculum Vitae-10-11.doc" />
-    <Content Include="Documents\CV\Kolodziej Jyoti Curriculum Vitae-10-11_Edits-10-29-12.pdf" />
-    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-10-29-12.pdf" />
-    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-12-7-10.doc" />
-    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-2012-10-11.pdf" />
-    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-2014-01-one-page.pdf" />
-    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-2014-01.docx" />
-    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-4-24-13.pdf" />
     <Content Include="Documents\EQRC_2010_Final_Paper_6-4-10 final.docx" />
     <Content Include="Documents\Essays\Kolodziej-Jyoti-Autobiographical-4-24-13.pdf" />
     <Content Include="Documents\Essays\Kolodziej-Jyoti-Multicultural-4-24-13.pdf" />
@@ -240,6 +232,9 @@
     <Content Include="Documents\Resources\Developmental-Theories-Edited for-Website.pdf" />
     <Content Include="Documents\Resources\SLD-graphic-organizer.pdf" />
     <Content Include="Documents\Resources\SLD-Presentation-Notes-Edited.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-2-18-14.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
