@@ -219,10 +219,6 @@
     <Content Include="Documents\2012-SITE\For-Submission-Synergetic-Collaborative-Learning.pdf" />
     <Content Include="Documents\Case_Study_of_Parents_Socializing_Talk_to_Siblings-Kolodziej-Sperry final.pptx" />
     <Content Include="Documents\EQRC_2010_Final_Paper_6-4-10 final.docx" />
-    <Content Include="Documents\Essays\Kolodziej-Jyoti-Autobiographical-4-24-13.pdf" />
-    <Content Include="Documents\Essays\Kolodziej-Jyoti-Multicultural-4-24-13.pdf" />
-    <Content Include="Documents\Essays\Kolodziej-Jyoti-Research-4-24-13.pdf" />
-    <Content Include="Documents\Essays\Kolodziej-Jyoti-Theoretical-Orientation-4-24-13.pdf" />
     <Content Include="Documents\paper_3049_35218-1.docx" />
     <Content Include="Documents\Reports\AT091611-Student-A.pdf" />
     <Content Include="Documents\Reports\Behavioral-Intervention-Plan-for-N.pdf" />
@@ -235,6 +231,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Documents\CV\Kolodziej-Jyoti-Curriculum-Vitae-2-18-14.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\Essays\Kolodziej-Jyoti-Autobiographical.pdf" />
+    <Content Include="Documents\Essays\Kolodziej-Jyoti-Multicultural.pdf" />
+    <Content Include="Documents\Essays\Kolodziej-Jyoti-Research.pdf" />
+    <Content Include="Documents\Essays\Kolodziej-Jyoti-Theoretical-Orientation.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
